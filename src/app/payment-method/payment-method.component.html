@@ -1,0 +1,33 @@
+<div class="body-app">
+</div>
+
+<div class="container pt-5 payment" >
+	<div class="mx-auto col-md-6">
+		<div class="d-flex flex-column">
+			<div class="d-flex flex-row">
+				<mat-radio-button class="example-margin" (change)="change('1')" value="after">Online Via UPI
+				</mat-radio-button>
+				<img class="img-payment" src="../../assets/upi.png">
+					</div>
+				<input class="mt-2 rounded" placeholder="Enter UPI">
+				</div>
+				<div class="d-flex flex-column">
+					<mat-radio-button class="example-margin" (change)="change('2')" value="before">Cash On Delivery
+					</mat-radio-button>
+					<div class="d-flex flex-row">
+						<!-- <img class="img-payment" src="../../assets/upi.png"><input placeholder="Enter UPI"> -->
+					</div>
+				</div>
+				<div class="d-flex flex-column">
+					<div class="d-flex flex-row">
+						<mat-radio-button class="example-margin" (change)="change('3')" value="before">Pay Via M-Paisa
+						</mat-radio-button>
+						<img class="img-payment" src="../../assets/upi.png">
+					</div>
+						<input class="mt-2 rounded"placeholder="Enter M-Paisa Id">
+				</div>
+						<button class="button mt-3 w-100" >Pay</button>
+					</div>
+				</div>
+
+				<app-app-footer></app-app-footer>

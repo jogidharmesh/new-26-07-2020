@@ -1,0 +1,34 @@
+<div class="body-app">
+</div>
+<div class="user-profile">
+	<div class="user-header">
+		<div class="user-image">
+			<label class="hoverable" for="fileInput">
+  <img class="u-img"  [src]="url ? url : 'https://www.w3schools.com/howto/img_avatar.png'"> 
+  <div class="hover-text">Choose file</div>
+  <div class="background"></div>
+</label>
+			<br/>
+			<input id="fileInput" type='file' (change)="onSelectFile($event)">
+			<button *ngIf="url" (click)="delete()" >delete</button>
+		</div>
+
+		<div class="user-details">
+			<label>Jitendra Singh</label>
+			<label>singh@gmail.com</label>
+			<label>9745352643</label>
+		</div>
+	</div>
+	<label>atpal Mohan 105/2A Laxmi Nagar, Gurgaon, 9899317383 Hony Editor of Mohyal Times of Mohyal Education Society
+        Regd</label>
+	<div>
+		<mat-list>
+			<mat-list-item> <img class="list-img" src="https://github.com/jogidharmesh/new180720-latest/blob/master/src/assets/user-groups.png?raw=true"> Profile </mat-list-item>
+			<mat-list-item> <img class="list-img" src="https://github.com/jogidharmesh/new180720-latest/blob/master/src/assets/purchase-order.png?raw=true"> My Order </mat-list-item>
+			<mat-list-item><img class="list-img" src="https://github.com/jogidharmesh/new180720-latest/blob/master/src/assets/online-store.png?raw=true"> Change Branch </mat-list-item>
+			<mat-list-item routerLink="/wish-list"> <img class="list-img" src="https://github.com/jogidharmesh/new180720-latest/blob/master/src/assets/heart.png?raw=true">My WishList </mat-list-item>
+			<mat-list-item> <img class="list-img" src="https://github.com/jogidharmesh/new180720-latest/blob/master/src/assets/feedback.png?raw=true"> Send feedback </mat-list-item>
+			<mat-list-item> <img class="list-img" src="https://github.com/jogidharmesh/new180720-latest/blob/master/src/assets/logout-.png?raw=true"> Log out </mat-list-item>
+		</mat-list>
+	</div>
+</div>

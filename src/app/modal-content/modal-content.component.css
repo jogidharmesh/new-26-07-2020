@@ -1,0 +1,18 @@
+.mat-dialog-actions button{
+    padding:5px 15px 5px 15px ;
+    background-color: var(--BTN-BG-COLOR);
+    color: var(--BTN-FONT-COLOR);
+    /* width: 49%; */
+    margin-left:5px;
+    margin-right: 5px; 
+    box-sizing: border-box;
+
+}
+
+.mat-dialog-actions{
+  justify-content: center;
+}
+
+.mat-dialog-content input{
+width: 95%;
+}

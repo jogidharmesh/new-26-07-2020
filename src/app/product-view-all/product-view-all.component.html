@@ -1,0 +1,35 @@
+<div class="body-app">
+</div>
+<app-category-nav-bar></app-category-nav-bar>
+<div class="list-view">
+	<!-- <button class="list-view-btn" ></button> -->
+	<i [ngClass]="fnticon" (click)="changeClass(Value)">{{Value}}</i>
+</div>
+<div [ngClass]="dynamicallyBox">
+	<div [ngClass]="dynamically" *ngFor="let image of images;let i=index">
+		<div>
+			<div class="new-card-hr">
+				<span class="dis_section"> Up To <b>50%</b> OFF </span>
+			</div>
+			<div [ngClass]="imgclassbox">
+				<img src="https://github.com/jogidharmesh/new180720/blob/master/src/assets/g.jpeg?raw=true" [ngClass]="imgclass">
+				<span class="centered">Out of Stocks</span>
+			</div>
+		</div>
+		<div [ngClass]="prodctDetailsClass">
+			<h4>{{image.text}}</h4>
+			<div class="new-card-hr">
+				<span class="strikethrough">M.R.P ₹ 450</span> <span class="spn">M.R.P ₹ 400</span>
+			</div>
+		</div>
+		<div [ngClass]="prodctDetailsBtmClass">
+			<div class="col-md-6">
+				<img [ngClass]="wishlist" (click)="wishclick()" src="https://github.com/jogidharmesh/new180720-latest/blob/master/src/assets/heart.png?raw=true">
+</div>
+				<div class="col-md-6">
+					<button type="button" [ngClass]="itemadded" (click)="itemadd()" disabled>Add</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<app-app-footer></app-app-footer>
