@@ -2,7 +2,7 @@
 .new-card {
     display: flex;
     flex-direction: row;
-    width: 50%;
+    width: 60%;
     height: auto;
     justify-content: space-evenly;
     padding: 10px;
@@ -154,6 +154,7 @@ z-index: 2;
       width: 40%;
       display: flex;
       flex-direction: column;
+      line-height: 12px;
     }
     .new-card-hr-list{
       width: 25%;
@@ -165,7 +166,7 @@ z-index: 2;
     }
      .product-dt h4 , .product-dt label, .product-deails-list h4 ,.new-card-hr-list h4{ 
       margin:0px;
-      width: 100%
+      /* width: 100% */
     }
 
 @media screen and (max-width: 450px) {

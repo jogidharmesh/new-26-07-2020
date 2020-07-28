@@ -6,3 +6,10 @@
 .payment input {
  line-height: 3em;
 }
+
+@media screen and (max-width:450px){
+
+  .mobile-hide{
+    display: none;
+  }
+}
