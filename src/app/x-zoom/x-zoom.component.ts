@@ -26,7 +26,7 @@ export class XZoomComponent implements OnInit {
 
   images = [
     {
-      text: "Good life Almonds ",
+      text: "Good life Almonds Good life Almonds ",
       image: "/assets/a.jpeg?raw=true",
       name: "Kalyan Fashion"
     },

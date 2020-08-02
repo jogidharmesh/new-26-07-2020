@@ -2,8 +2,42 @@
 <div class="body-app">
 </div>
 <div *ngIf="!noadd" formGroupName="address" class="delivery mr-l mr-t mr-r mr-b">
-    <h3>Enter Your Delivery Adreess</h3>
+    <h3 class="align-self-center">Enter Your Delivery Adreess</h3>
+    <label class="mt-3">
+        Mobile No:
+    </label>
+    <input class="input-field-del" type="text" formControlName="mobile">
     <label>
+        Full Name:
+    </label>
+    <input class="input-field-del" type="text" formControlName="fullname">
+    <label>
+        Street:
+    </label>
+    <input class="input-field-del" type="text" formControlName="street">
+    <label>
+        City:
+    </label>
+    <input class="input-field-del" type="text" formControlName="city">
+    <label>
+        State:
+    </label>
+    <input class="input-field-del" type="text" formControlName="state">
+    <label>
+        Zip Code:
+    </label>
+    <input class="input-field-del" type="text" formControlName="zip">
+    <label>
+        Full Adrees:
+    </label>
+    <input  type="text" class="fulltext" formControlName="address">
+    <button class="button" type="button" (click)='noadd=false'>Save and proceed</button>
+</div>
+
+
+<div *ngIf="!noadd" formGroupName="address" class="delivery mr-l mr-t mr-r mr-b">
+    <h3 class="align-self-center">Enter Your Billing Adreess</h3>
+    <label class="mt-3">
         Mobile No:
     </label>
     <input class="input-field-del" type="text" formControlName="mobile">
@@ -36,7 +70,7 @@
 
 
 <div class="delivery-address mr-l mr-t mr-r mr-b">
-    <h3>Select Delivery Address</h3>
+    <h3 class="align-self-center">Select Delivery Address</h3>
     <p> SCO 201, Sector 14, BEL Colony, Budanpur, Panchkula, Haryana 134109</p>
 
     <div class=delivery-bottom>
