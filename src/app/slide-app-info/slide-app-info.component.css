@@ -11,7 +11,7 @@
     width: 600px;
     height: auto;
     margin: 15px;
-    border: 1px solid var(--BORDER-COLOR);
+    /* border: 1px solid var(--BORDER-COLOR); */
     background-color: white;
     z-index: 998;
     border-radius: 20px;
@@ -51,17 +51,25 @@ position: relative;
     margin-left: 5px;
     color: white;
     border: none;
-    width: 25px;
-    height: 25px;
+    width: 15px;
+    height: 15px;
 }
 
 .button-skip{
-        background: var(--BTN-BG-COLOR );
+        /* background: var(--BTN-BG-COLOR );
     color: white;
     padding: 5px 15px 5px 15px;
     right: 10px;
     position: absolute;
+    border-radius: 5px; */
+
+    /* background: var(--BTN-BG-COLOR );  */
+    color:  var(--BTN-BG-COLOR );
+    /* padding: 5px 15px 5px 15px; */
+    right: 10px;
+    position: absolute;
     border-radius: 5px;
+    margin-top: 10px;
 }
 
 .button-app-info-active{
@@ -70,8 +78,10 @@ position: relative;
     border-radius: 25px;
     margin-left: 5px;
     color: white;
-    width: 25px;
-    height: 25px;
+    width: 15px;
+    height: 15px;
+    margin-top: 10px;
+  
 }
 
 

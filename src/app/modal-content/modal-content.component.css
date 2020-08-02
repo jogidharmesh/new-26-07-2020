@@ -9,6 +9,10 @@
 
 }
 
+.text-area{
+  height: 100px;
+}
+
 .mat-dialog-actions{
   justify-content: center;
 }

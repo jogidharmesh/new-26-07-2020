@@ -5,7 +5,9 @@
         <input type="text" placeholder="Enter Mobile Number">
         <span class="sep">OR</span>
         <input type="email" placeholder="Enter Email Id">
+        <mat-checkbox >Accept our Terms & conditipnba and privacy policy</mat-checkbox>
         <button class="login-button" (click)="show=true">Send Otp</button>
+       
     </div>
     
     <div class="login"  *ngIf="">
@@ -27,5 +29,6 @@
             <input type="text"/>
         </div>
         <button class="login-button mr-t">Submit</button>
+        <button class="login-button mr-t" (click)="show=true">Resend Otp</button>
     </div>
 </div>

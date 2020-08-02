@@ -4,50 +4,59 @@
 
 <div class="slider" *ngIf="slider">
 
-<div *ngIf="slider1" class="slider-box w3-animate-left">
-  <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</h2>
-  <img src="https://github.com/jogidharmesh/new180720/blob/master/src/assets/mpaisa.png?raw=true">
-  <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</h4>
-      <div class="slider-action">
-    
-  <button 
+	<div *ngIf="slider1" class="slider-box">
+		<h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+			dolore magna aliqua</h2>
+		<img class="mt-3" src="https://github.com/jogidharmesh/new180720/blob/master/src/assets/mpaisa.png?raw=true">
+		<h4 class="mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+			labore et
+			dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+			ea commodo consequat</h4>
+		<div class="slider-action">
+
+			<button
   [ngClass]="slider1 === true ? 'button-app-info-active' : 'button-app-info'"
   (click)="slider3=false;slider2=false;slider1=true"></button>
-  <button   [ngClass]="slider2 === true ? 'button-app-info-active' : 'button-app-info'" (click)="slider3=false;slider2=true;slider1=false"></button>
-  <button  [ngClass]="slider3 === true ? 'button-app-info-active' : 'button-app-info'" (click)="slider3=true;slider2=false;slider1=false"></button>
-  <button class="button-skip" (click)="slider=false">Skip</button>
-    </div>
-</div>
+			<button   [ngClass]="slider2 === true ? 'button-app-info-active' : 'button-app-info'" (click)="slider3=false;slider2=true;slider1=false"></button>
+			<button  [ngClass]="slider3 === true ? 'button-app-info-active' : 'button-app-info'" (click)="slider3=true;slider2=false;slider1=false"></button>
+			<a class="button-skip" (click)="slider=false">Skip</a>
+		</div>
+	</div>
 
-<div *ngIf="slider2"class="slider-box w3-animate-left">
-   <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</h2>
-  <img src="https://github.com/jogidharmesh/new180720/blob/master/src/assets/mpaisa.png?raw=true">
-  <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </h4>
-     <div class="slider-action">
-    
-  <button 
+	<div *ngIf="slider2" class="slider-box">
+		<h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+			dolore magna aliqua</h2>
+		<img class="mt-3" src="https://github.com/jogidharmesh/new180720/blob/master/src/assets/mpaisa.png?raw=true">
+		<h4 class="mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+			labore et
+			dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+			ea commodo consequat. </h4>
+		<div class="slider-action">
+
+			<button
   [ngClass]="slider1 === true ? 'button-app-info-active' : 'button-app-info'"
   (click)="slider3=false;slider2=false;slider1=true"></button>
-  <button   [ngClass]="slider2 === true ? 'button-app-info-active' : 'button-app-info'" (click)="slider3=false;slider2=true;slider1=false"></button>
-  <button  [ngClass]="slider3 === true ? 'button-app-info-active' : 'button-app-info'" (click)="slider3=true;slider2=false;slider1=false"></button>
-  <button class="button-skip" (click)="slider=false">Skip</button>
-    </div>
-</div>
+			<button   [ngClass]="slider2 === true ? 'button-app-info-active' : 'button-app-info'" (click)="slider3=false;slider2=true;slider1=false"></button>
+			<button  [ngClass]="slider3 === true ? 'button-app-info-active' : 'button-app-info'" (click)="slider3=true;slider2=false;slider1=false"></button>
+			<a class="button-skip" (click)="slider=false">Skip</a>
+		</div>
+	</div>
 
-<div  *ngIf="slider3" class="slider-box w3-animate-left">
-   <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</h2>
-  <img src="https://github.com/jogidharmesh/new180720/blob/master/src/assets/mpaisa.png?raw=true">
-  <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4>
-   <div class="slider-action">
-    
-  <button 
+	<div *ngIf="slider3" class="slider-box">
+		<h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+			dolore magna aliqua</h2>
+		<img class="mt-3" src="https://github.com/jogidharmesh/new180720/blob/master/src/assets/mpaisa.png?raw=true">
+		<h4 class="mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+			labore et
+			dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+			ea commodo consequat.</h4>
+		<div class="slider-action">
+
+			<button
   [ngClass]="slider1 === true ? 'button-app-info-active' : 'button-app-info'"
   (click)="slider3=false;slider2=false;slider1=true"></button>
-  <button   [ngClass]="slider2 === true ? 'button-app-info-active' : 'button-app-info'" (click)="slider3=false;slider2=true;slider1=false"></button>
-  <button  [ngClass]="slider3 === true ? 'button-app-info-active' : 'button-app-info'" (click)="slider3=true;slider2=false;slider1=false"></button>
-  <button class="button-skip" (click)="slider=false">Skip</button>
-    </div>
-</div>
-
-
-
+			<button   [ngClass]="slider2 === true ? 'button-app-info-active' : 'button-app-info'" (click)="slider3=false;slider2=true;slider1=false"></button>
+			<button  [ngClass]="slider3 === true ? 'button-app-info-active' : 'button-app-info'" (click)="slider3=true;slider2=false;slider1=false"></button>
+			<a class="button-skip" (click)="slider=false">Skip</a>
+		</div>
+	</div>

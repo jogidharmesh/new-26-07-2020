@@ -42,7 +42,7 @@ export class OrderCancelComponent  {
 
     const dialogRef = this.dialog.open(ModalContentComponent, {
       width: '400px',
-      height: '400px'
+      height: '350px'
       // data: {name: this.name, animal: this.animal}
     });
     dialogRef.afterClosed().subscribe(result => {

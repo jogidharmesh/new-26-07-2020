@@ -1,6 +1,6 @@
  @import "~ng-pick-datetime/assets/style/picker.min.css"; 
 body{
-    font-family: 'Rajdhani', sans-serif ;
+    font-family:'Open Sans', sans-serif ;
     background-color: var(--BG-COLOR);
 
 }
