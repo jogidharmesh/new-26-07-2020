@@ -194,6 +194,15 @@ button :disabled{
     font-size: 14px;
 }
 
+.button-border{
+    padding: 5px 15px 5px 15px;
+    background-color: white;
+    color: var(--BTN-BG-COLOR );
+    border-radius: 5px;
+    font-weight: bold;
+    border: 1px solid var(--BTN-BG-COLOR ) ;
+    font-size: 14px;
+}
 button{
     border: none;
 }
@@ -217,6 +226,8 @@ font-size: 16px;
 color:red;
 font-weight:bolder;
 }
+
+
 
 /* other Header */
 
@@ -362,6 +373,49 @@ white-space: nowrap;
   left: 50%;
   margin-left: -4em;
 }
+
+/* mster css for xs */
+.col-md-1{
+width: 8.33%;
+}
+.col-md-2{
+  width:16.66%
+}
+.col-md-3{
+  width:25%
+}
+
+.col-md-4{
+  width:33.33%
+}
+
+.col-md-5{
+  width:42.66%
+}
+.col-md-6{
+  width:50%;
+}
+.col-md-7{
+width: 58.33%;
+}
+.col-md-8{
+  width:66.66%
+}
+.col-md-9{
+  width:75%
+}
+
+.col-md-10{
+  width:83.33%
+}
+
+.col-md-11{
+  width:91.66%
+}
+.col-md-12{
+  width:100%;
+}
+
 @media screen and (max-width: 450px) {
     .main {
         display: flex;
@@ -456,4 +510,63 @@ white-space: nowrap;
   display: none;
 }
 
+
+.col-xs-1{
+width: 8.33%;
+padding-right: 0px; 
+padding-left: 0px;
+}
+.col-xs-2{
+  width:16.66%;
+  padding-right: 0px; 
+padding-left: 0px;
+}
+.col-xs-3{
+  width:25%;
+  padding-right: 0px; 
+padding-left: 0px;
+}
+
+.col-xs-4{
+  width:33.33%;
+  padding-right: 0px; 
+padding-left: 0px;
+}
+
+.col-xs-5{
+  width:42.66%
+}
+.col-xs-6{
+  width:50%;
+}
+.col-xs-7{
+width: 58.33%;
+}
+.col-xs-8{
+  width:66.66%;
+  padding-right: 0px; 
+padding-left: 0px;
+}
+.col-xs-9{
+  width:75%;
+  padding-right: 0px; 
+padding-left: 0px;
+}
+
+.col-xs-10{
+  width:83.33%;
+  padding-right: 0px; 
+padding-left: 0px;
+}
+
+.col-xs-11{
+  width:91.66%;
+  padding-right: 0px; 
+padding-left: 0px;
+}
+.col-xs-12{
+  width:100%;
+  padding-right: 0px; 
+padding-left: 0px;
+}
 }
