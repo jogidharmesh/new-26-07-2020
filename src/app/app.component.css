@@ -459,7 +459,7 @@ width: 58.33%;
     }
     .footer  {
         display: flex;
-        width: 99%;
+        width: 100%;
         height: 3em;
         background-color: var(--FOOTER-STORE-BG-COLOR);
         align-items: center;
@@ -510,6 +510,14 @@ width: 58.33%;
   display: none;
 }
 
+.store-left{
+  position: relative;
+  left: 10px;
+}
+.store-right{
+  position: relative;
+  right:10px;
+}
 
 .col-xs-1{
 width: 8.33%;

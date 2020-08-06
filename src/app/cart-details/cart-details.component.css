@@ -166,6 +166,12 @@ white-space: nowrap;
      display: flex;
    }
 
+   .cart-store-header{
+         background-color: aquamarine;
+    padding: 10px;
+    border-radius: 5px;
+   }
+
 
 
 @media screen and (max-width: 450px) {
