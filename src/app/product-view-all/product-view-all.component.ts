@@ -18,7 +18,7 @@ export class ProductViewAllComponent implements OnInit {
      imgclassbox:string = 'img-card';
      fnticon:string = 'fas fa-list-alt';
      wishlist ='fas fa-heart';
-     itemadded = 'button';
+     itemadded = 'btn-add';
      prodctDetailsClass = 'product-deails-tile';
      prodctDetailsBtmClass = 'new-card-hr-tile';
   
@@ -33,6 +33,7 @@ export class ProductViewAllComponent implements OnInit {
         this.fnticon = 'fas fa-th-large';
         this.prodctDetailsClass ='product-deails-list';
         this. prodctDetailsBtmClass = 'new-card-hr-list';
+        this.wishlist = 'ml-15';
       }
       else {
         this.Value = 'List-View';
@@ -62,7 +63,7 @@ export class ProductViewAllComponent implements OnInit {
 
   images = [
     {
-      text: "Good life Almonds ",
+      text: "dalkdjlakdaldlajdadladjaldjaldjaljdaljdaljd dalkdjlakdaldlajdadladjaldjaldjaljdaljdaljd ",
       image: "/assets/a.jpeg?raw=true",
       name: "Kalyan Fashion"
     },

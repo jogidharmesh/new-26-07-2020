@@ -44,10 +44,11 @@
     margin-left: 5%;
 }
 .img-card {
-    width: 150px;
+   width: 150px;
     height: 150px;
     margin: auto;
     position: relative;
+    margin-top: -45px;
 }
 
 .strikethrough {
@@ -69,7 +70,7 @@
 }
 
 .dis_section {
-    width: 42px;
+   width: 42px;
     height: 42px;
     border-radius: 50%;
     text-align: center;
@@ -81,14 +82,12 @@
     z-index: 998;
     color: #fff;
     display: block;
-    /* padding: 5px 0; */
 }
 
 .new-card-mobile{
     display: flex;
     flex-direction: row;
     height: 100px;
-    height: auto;
     justify-content: flex-start;
     padding: 10px;
     border-radius: 10px;
@@ -165,14 +164,20 @@ z-index: 2;
 
 
     .product-deails-tile {
-     align-items: center;
+       align-items: center;
     justify-content: space-between;
     display: flex;
     flex-direction: column;
-    
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
     }
 
-     .new-card-hr-tile {
+
+.product-deails-tile h4{
+  
+ text-overflow: ellipsis;
+}     .new-card-hr-tile {
      align-items: center;
     justify-content: space-evenly ;
     display: flex;
@@ -181,6 +186,18 @@ z-index: 2;
     }
     .spn{
       margin-left: 5px;
+    }
+
+    .btn-add{
+      padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    /* border: none; */
+    font-size: 14px;
+    border: 1px solid var(--BTN-BG-COLOR );
+    background: white;
+    color: var(--BTN-BG-COLOR );
+  
     }
 @media screen and (max-width: 450px) {
     .slide-image-prd {
@@ -273,13 +290,15 @@ margin-top: 10px;
         height: 100px;
         margin: auto;
         position: relative;
+        margin-top: -45px;
         
     }
     .img-card{
-        width: 150px;
-        height: 150px;
-        margin: auto;
-        position: relative;
+     width: 150px;
+    height: 150px;
+    margin: auto;
+    position: relative;
+    margin-top: -45px;
     }
 
     .list-view i {
@@ -289,15 +308,23 @@ margin-top: 10px;
     .list-view i:before {
         padding-right: 5px;
     }
-
+    .new-card-mobile{
+      width: 95%
+    }
     .new-card-mobile:last-child{
         margin-bottom:3em;
     }
 
     .product-deails-list{
       width: 50%;
+      overflow: hidden;
+white-space: nowrap;
     }
     .product-deails-tile{
        width: 100%;
+    }
+
+    .ml-15{
+      margin-left: 15px;
     }
 }
